@@ -1,73 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>function</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>function</title>
+        <link rel="stylesheet" href="./css/style.css">
 
-    <style>
+        <style>
 
-    </style>
-    <script>
+        </style>
+        <script>
 
-    </script>
-</head>
-<body>
-    <script src="./js/script.js"></script>
-    <script>
-        // function are resuable block of code.
-        // Let define a function
-        //1. function defination
-        /*
-        There are 2 types of function
-        1. function defination (one time process)
-        syntax
-        function name(parameter1,parameter2,parameter3){
-            //code to be executed
-        }
+        </script>
+    </head>
+    <body>
+        <script src="./js/script.js"></script>
+        <script>
+            // function are resuable block of code.
+            // Let define a function
+            //1. function defination
+            /*
+            There are 2 types of function
+            1. function defination (one time process)
+            syntax
+            function name(parameter1,parameter2,parameter3){
+                //code to be executed
+            }
 
-        2. function calling (many time process)
-        */
+            2. function calling (many time process)
+            */
 
-        //1. function defination(one time process)
-        function sum(parameter1,parameter2){  //parameter = argument  formal argument
-            //function body 
-        
-        // every function return something
-        //return result;
+            //1. function defination(one time process)
+            function sum(parameter1,parameter2){  //parameter = argument  formal argument
+                //function body 
+            
+            // every function return something
+            //return result;
 
-        return parameter1 + parameter2;
-        }
+            return parameter1 + parameter2;
+            }
 
-        //2. function calling (Many Time process)
-        console.log(sum(1,2));  // Actual Argument/parameter
+            //2. function calling (Many Time process)
+            console.log(sum(1,2));  // Actual Argument/parameter
 
-        // 2nd time calling
-        let z = sum(10,5); // Actual Argument
-        console.log(z);
+            // 2nd time calling
+            let z = sum(10,5); // Actual Argument
+            console.log(z);
 
-        // 3. object
-        let info = {
-            //1. Property:Value
-            name:"Saloni",
-            surname:'Suryavanshi',
-            address:`Dewas`,
-        
+            // 3. object
+            let info = {
+                //1. Property:Value
+                name:"Saloni",
+                surname:'Suryavanshi',
+                address:`Dewas`,
+            
 
-        //2. function
-        //2.1 function defination(one time process)
-        log(){
-            console.log("Hello from log function")
-        }
-    };
-    console.log(info.name); //1 technique
-    console.log(info["surname"]); //2 technique
-    let x = 'address'
-    console.log(info[x]);  //3 technique
+            //2. function
+            //2.1 function defination(one time process)
+            log(){
+                console.log("Hello from log function")
+            }
+        };
+        console.log(info.name); //1 technique
+        console.log(info["surname"]); //2 technique
+        let x = 'address'
+        console.log(info[x]);  //3 technique
 
 
-    </script>
-</body>
+        </script>
+    </body>
 </html>
